@@ -1,0 +1,69 @@
+.flex {
+  display: flex;
+}
+html {
+  background-color: #0c2d48;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #fff;
+}
+.App {
+  padding: 5%;
+}
+h1 {
+  cursor: pointer;
+  width: 40%;
+  font-size: 2.1rem;
+}
+h1 .edit-icon {
+  width: 5%;
+  padding-left: 12px;
+}
+input {
+  height: 50px;
+  font-size: 2.1rem;
+  color: #fff;
+  background-color: #0c2d48;
+  margin: 1%;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+button {
+  cursor: pointer;
+  height: 50px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #0c2d48;
+}
+.member {
+  width: 60%;
+  font-size: 1.4rem;
+}
+.member span {
+  display: flex;
+  justify-content: space-between;
+}
+.member span img {
+  width: 3%;
+  cursor: pointer;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTvWacfw6zH4dthXcyms1lPpC8I_b0juU0J7A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserratalternates/v12/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xGIT1AA.ttf) format('truetype');
+}
+html,
+#root,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
